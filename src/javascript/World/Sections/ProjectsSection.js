@@ -124,7 +124,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://threejs-journey.com?c=p3',
+                    href: 'https://www.youtube.com/watch?v=1fn1A1v9yoE',
                     x: - 4.8,
                     y: - 3,
                     halfExtents:
@@ -149,7 +149,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsMadboxFloorTexture,
                 link:
                 {
-                    href: 'https://madbox.io',
+                    href: 'https://www.youtube.com/watch?v=1fn1A1v9yoE',
                     x: - 4.8,
                     y: - 4,
                     halfExtents:
@@ -175,7 +175,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsScoutFloorTexture,
                 link:
                 {
-                    href: 'https://fromscout.com',
+                    href: 'https://www.youtube.com/watch?v=1fn1A1v9yoE',
                     x: - 4.8,
                     y: - 2,
                     halfExtents:
@@ -199,7 +199,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsChartogneFloorTexture,
                 link:
                 {
-                    href: 'https://chartogne-taillet.com',
+                    href: 'https://www.youtube.com/watch?v=1fn1A1v9yoE',
                     x: - 4.8,
                     y: - 3.3,
                     halfExtents:
@@ -226,7 +226,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsZenlyFloorTexture,
                 link:
                 {
-                    href: 'https://zen.ly',
+                    href: 'https://www.youtube.com/watch?v=1fn1A1v9yoE',
                     x: - 4.8,
                     y: - 4.2,
                     halfExtents:
@@ -253,7 +253,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsPriorHoldingsFloorTexture,
                 link:
                 {
-                    href: 'https://prior.co.jp/discover/',
+                    href: 'https://www.youtube.com/watch?v=1fn1A1v9yoE',
                     x: - 4.8,
                     y: - 3,
                     halfExtents:
@@ -280,7 +280,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsOranoFloorTexture,
                 link:
                 {
-                    href: 'https://orano.imm-g-prod.com/experience/innovation/en',
+                    href: 'https://www.youtube.com/watch?v=1fn1A1v9yoE',
                     x: - 4.8,
                     y: - 3.4,
                     halfExtents:
@@ -295,83 +295,6 @@ export default class ProjectsSection
                     { type: 'fwa', x: 5.6, y: 4.15 },
                     { type: 'cssda', x: 7.2, y: 4.15 }
                 ]
-            },
-            {
-                name: 'citrixRedbull',
-                imageSources:
-                [
-                    projectsCitrixRedbullSlideASources,
-                    projectsCitrixRedbullSlideBSources,
-                    projectsCitrixRedbullSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
-                link:
-                {
-                    href: 'https://thenewmobileworkforce.imm-g-prod.com/',
-                    x: - 4.8,
-                    y: - 4.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            // {
-            //     name: 'gleecChat',
-            //     imageSources:
-            //     [
-            //         projectsGleecChatSlideASources,
-            //         projectsGleecChatSlideBSources,
-            //         projectsGleecChatSlideCSources,
-            //         projectsGleecChatSlideDSources
-            //     ],
-            //     floorTexture: this.resources.items.projectsGleecChatFloorTexture,
-            //     link:
-            //     {
-            //         href: 'http://gleec.imm-g-prod.com',
-            //         x: - 4.8,
-            //         y: - 3.4,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions:
-            //     [
-            //         { type: 'awwwards', x: 3.95, y: 4.15 },
-            //         { type: 'fwa', x: 5.6, y: 4.15 },
-            //         { type: 'cssda', x: 7.2, y: 4.15 }
-            //     ]
-            // },
-            {
-                name: 'keppler',
-                imageSources:
-                [
-                    projectsKepplerSlideASources,
-                    projectsKepplerSlideBSources,
-                    projectsKepplerSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsKepplerFloorTexture,
-                link:
-                {
-                    href: 'https://brunosimon.github.io/keppler/',
-                    x: 2.75,
-                    y: - 1.1,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions: []
             }
         ]
     }
