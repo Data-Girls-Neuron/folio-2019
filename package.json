@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack-dev-server --config ./bundler/webpack.dev.js",
     "watch": "webpack --watch --config ./bundler/webpack.config.js"
@@ -44,5 +46,8 @@
   "staticFiles": {
     "staticPath": "static",
     "watcherGlob": "**"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
